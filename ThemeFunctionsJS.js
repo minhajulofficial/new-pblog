@@ -1,5 +1,3 @@
-<script type='text/javascript'>
-//<![CDATA[
 /*
  * jQuery One Page Nav Plugin
  * http://github.com/davist11/jQuery-One-Page-Nav
@@ -74,5 +72,4 @@ $this.data('counterup-nums',nums);$this.text('0');var f=function(){$this.text($t
 
 jQuery(document).ready(function($){$('.counter-info .counter-title').counterUp({delay:10,time:3000});$('.counter-box-info,.counter-box-image').matchHeight();});$(document)["ready"](function(){"use strict";var a=$(window);$(".full-height, #main-intro .container")["height"](a["height"]());a["on"]("resize",function(){$(".full-height")["height"](a["height"]());});$('#parallax-menu ul,.slide-in').onePageNav({currentClass:'current',changeHash:false,scrollSpeed:750});$('#parallax-menu ul').clone().appendTo('.scrolling-mobile-menu');$('.scrolling-mobile-menu-toggle').on('click',function(){$('body').toggleClass('scrolling-active');$('.overlay').fadeToggle(170);});});
 
-//]]>
-</script>
+
